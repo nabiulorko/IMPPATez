@@ -1,0 +1,185 @@
+IMPHY_ID,Phytochemical_Name,SMILES,RO5_Status
+IMPHY006972,1-Octacosanol,CCCCCCCCCCCCCCCCCCCCCCCCCCCCO,Failed (1 violation)
+IMPHY003525,Nonanal,CCCCCCCCC=O,Passed
+IMPHY010053,"9,12-Octadecadien-1-OL",CCCCC/C=C/C/C=C/CCCCCCCCO,Failed (1 violation)
+IMPHY012015,Methylphenol,Cc1ccccc1O.Cc1cccc(c1)O.Cc1ccc(cc1)O,Failed (1 violation)
+IMPHY012654,Nerol,,No SMILES
+IMPHY014989,trans-Linalool oxide,C=C[C@]1(C)CC[C@H](O1)C(O)(C)C,Passed
+IMPHY001618,Oryzalexin A,C=C[C@]1(C)CC[C@@H]2C(=C1)C(=O)C[C@H]1[C@@]2(C)CC[C@H](C1(C)C)O,Passed
+IMPHY005282,Oryzalexin B,C=C[C@]1(C)CC[C@@H]2C(=C1)[C@@H](O)C[C@H]1[C@@]2(C)CCC(=O)C1(C)C,Passed
+IMPHY005370,Momilactone A,C=C[C@]1(C)CC[C@@H]2C(=C[C@@H]3[C@@H]4[C@]2(C)CCC(=O)[C@@]4(C(=O)O3)C)C1,Passed
+IMPHY006884,"(1S,2R,5R,9R,12R,13S,18R)-5-ethenyl-13-hydroxy-5,12-dimethyl-10,14-dioxapentacyclo[11.2.2.11,9.02,7.012,18]octadec-7-en-11-one",C=C[C@]1(C)CC[C@@H]2C(=C[C@@H]3[C@@H]4[C@@]52CC[C@](OC5)([C@@]4(C(=O)O3)C)O)C1,Passed
+IMPHY006919,oryzalexin D,C=C[C@]1(C)CC[C@@H]2C(=C1)[C@@H](O)C[C@H]1[C@@]2(C)CC[C@H](C1(C)C)O,Passed
+IMPHY006920,oryzalexin E,C=C[C@]1(C)CC[C@@]2(C(=C1)CC[C@H]1[C@@]2(C)CC[C@H](C1(C)C)O)O,Passed
+IMPHY012232,Sakuranetin,COc1cc2O[C@@H](CC(=O)c2c(c1)O)c1ccc(cc1)O,Passed
+IMPHY012406,Oryzalexin C,C=C[C@]1(C)CC[C@@H]2C(=C1)C(=O)C[C@H]1[C@@]2(C)CCC(=O)C1(C)C,Passed
+IMPHY012548,Carlinoside,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O)c1c(O)c([C@@H]2OC[C@@H]([C@@H]([C@H]2O)O)O)c2c(c1O)c(=O)cc(o2)c1ccc(c(c1)O)O,Failed (3 violations)
+IMPHY014501,"(1R,2S,4R,7R,10S,13R)-6-(hydroxymethyl)-2,6,12-trimethyltetracyclo[11.2.1.01,10.02,7]hexadec-11-en-4-ol",OCC1(C)C[C@H](O)C[C@]2([C@H]1CC[C@@H]1[C@@]32CC[C@H](C3)C(=C1)C)C,Passed
+IMPHY015020,Neocarlinoside,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O)c1c(O)c([C@H]2OC[C@@H]([C@@H]([C@H]2O)O)O)c2c(c1O)c(=O)cc(o2)c1ccc(c(c1)O)O,Failed (3 violations)
+IMPHY015099,Tricin 7-glucoside,OCC1OC(Oc2cc(O)c3c(c2)oc(cc3=O)c2cc(OC)c(c(c2)OC)O)C(C(C1O)O)O,Failed (2 violations)
+IMPHY000060,Myristic acid,CCCCCCCCCCCCCC(=O)O,Passed
+IMPHY000158,Pyridoxine,OCc1c(CO)cnc(c1O)C,Passed
+IMPHY000275,Mugineic acid,O[C@H](C(=O)O)CCN[C@@H]([C@H](CN1CC[C@H]1C(=O)O)O)C(=O)O,Failed (1 violation)
+IMPHY000308,Hexadecane,CCCCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY001268,Peonidin-3-glucoside,OC[C@H]1O[C@@H](Oc2cc3c(O)cc(cc3[o+]c2c2ccc(c(c2)OC)O)O)[C@@H]([C@H]([C@@H]1O)O)O,Failed (1 violation)
+IMPHY001461,"(2,3,4,5,6-pentahydroxycyclohexyl) 2-(1H-indol-3-yl)acetate",O=C(Cc1c[nH]c2c1cccc2)OC1C(O)C(O)C(C(C1O)O)O,Failed (1 violation)
+IMPHY001516,Decane,CCCCCCCCCC,Passed
+IMPHY001726,avenic acid B,OCC[C@@H](C(=O)O)NCC[C@@H](C(=O)O)O,Passed
+IMPHY001813,Trimethylamine,CN(C)C,Passed
+IMPHY001856,Stachydrine,[O-]C(=O)[C@@H]1CCC[N+]1(C)C,Passed
+IMPHY001915,Octadecane,CCCCCCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY001931,Vanillin,COc1cc(C=O)ccc1O,Passed
+IMPHY001962,Xanthine,O=c1[nH]c(=O)c2c([nH]1)nc[nH]2,Passed
+IMPHY002875,Undecane,CCCCCCCCCCC,Passed
+IMPHY002938,"[1-Hexadecanoyloxy-3-[3,4,5-trihydroxy-6-[[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]oxan-2-yl]oxypropan-2-yl] octadeca-9,12-dienoate",CCCCCCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCC=CCC=CCCCCC)COC1OC(COC2OC(CO)C(C(C2O)O)O)C(C(C1O)O)O,Failed (4 violations)
+IMPHY003128,Triacontanal,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=O,Failed (1 violation)
+IMPHY003500,Citric acid,OC(=O)C(CC(=O)O)(CC(=O)O)O,Passed
+IMPHY004631,Stearic acid,CCCCCCCCCCCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY005139,5-(12-Heptadecenyl)-resorcinol,CCCCC=CCCCCCCCCCCCc1cc(O)cc(c1)O,Failed (1 violation)
+IMPHY005289,Dotriacontanal,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC=O,Failed (1 violation)
+IMPHY005501,Allantoin,NC(=O)NC1NC(=O)NC1=O,Passed
+IMPHY005601,Tricin,COc1cc(cc(c1O)OC)c1cc(=O)c2c(o1)cc(cc2O)O,Passed
+IMPHY005797,3-Hydroxymugineic acid,O[C@H](C(=O)O)CCN[C@@H]([C@H](CN1C[C@H]([C@H]1C(=O)O)O)O)C(=O)O,Failed (1 violation)
+IMPHY005839,Trigonelline,C[n+]1cccc(c1)C(=O)[O-],Passed
+IMPHY006039,"1,2,4-Trimethylbenzene",Cc1ccc(c(c1)C)C,Passed
+IMPHY006399,vitamin B1,OCCc1sc[n+](c1C)Cc1cnc(nc1N)C.[Cl-],Passed
+IMPHY006951,Eicosane,CCCCCCCCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY006971,Methyl palmitate,CCCCCCCCCCCCCCCC(=O)OC,Failed (1 violation)
+IMPHY006988,Hypoxanthine,O=c1nc[nH]c2c1[nH]cn2,Passed
+IMPHY007124,Delphinidin,Oc1cc(O)c2c(c1)[o+]c(c(c2)O)c1cc(O)c(c(c1)O)O.[Cl-],Failed (1 violation)
+IMPHY007151,Pantothenic acid,OCC([C@H](C(=O)NCCC(=O)O)O)(C)C,Passed
+IMPHY007202,Nonane,CCCCCCCCC,Passed
+IMPHY007327,Palmitic acid,CCCCCCCCCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY007385,Nicotinamide,NC(=O)c1cccnc1,Passed
+IMPHY007450,Oxalic acid,OC(=O)C(=O)O,Passed
+IMPHY007903,Dibutyl phthalate,CCCCOC(=O)c1ccccc1C(=O)OCCCC,Passed
+IMPHY008728,"[3-[Hydroxy-(2,3,4,5,6-pentahydroxycyclohexyl)oxyphosphoryl]oxy-2-octadecanoyloxypropyl] octadecanoate",CCCCCCCCCCCCCCCCCC(=O)OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)(OC1C(O)C(O)C(C(C1O)O)O)O,Failed (4 violations)
+IMPHY008937,Vitamin E,C[C@@H](CCC[C@]1(C)CCc2c(O1)c(C)c(c(c2C)O)C)CCC[C@@H](CCCC(C)C)C,Failed (1 violation)
+IMPHY009368,Heptadecane,CCCCCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY009389,Pentadecane,CCCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY009419,Tridecane,CCCCCCCCCCCCC,Failed (1 violation)
+IMPHY009624,Ethyl palmitate,CCCCCCCCCCCCCCCC(=O)OCC,Failed (1 violation)
+IMPHY009826,"1-(11Z-icosenoyl)-2-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phosphoethanolamine",CCCCCCCC/C=CCCCCCCCCCC(=O)OC[C@@H](OC(=O)CCCCCCC/C=CC/C=CCCCCC)COP(=O)(OCC[NH3+])[O-],Failed (2 violations)
+IMPHY010000,Dodecane,CCCCCCCCCCCC,Passed
+IMPHY010072,Eucalyptol,CC12CCC(CC1)C(O2)(C)C,Passed
+IMPHY010579,1-Eicosene,CCCCCCCCCCCCCCCCCCC=C,Failed (1 violation)
+IMPHY010904,"(S,S,S)-avenic acid A",OCC[C@@H](C(=O)O)NCC[C@@H](C(=O)O)NCC[C@@H](C(=O)O)O,Failed (1 violation)
+IMPHY011215,Tetradecane,CCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY011217,"5,7-dihydroxy-2-(4-hydroxyphenyl)-6-[(2R,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]-8-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]chromen-4-one",OC[C@H]1O[C@@H]([C@@H]([C@H]([C@@H]1O)O)O)c1c(O)c([C@@H]2OC[C@@H]([C@H]([C@H]2O)O)O)c2c(c1O)c(=O)cc(o2)c1ccc(cc1)O,Failed (3 violations)
+IMPHY011393,24-Methylenecycloartanol,C=C(C(C)C)CC[C@H]([C@H]1CC[C@@]2([C@]1(C)CC[C@@]13[C@H]2CC[C@@H]2[C@]3(C1)CC[C@@H](C2(C)C)O)C)C,Failed (1 violation)
+IMPHY011394,Arachidic acid,CCCCCCCCCCCCCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY011642,Cycloartenol,CC(=CCC[C@H]([C@H]1CC[C@@]2([C@]1(C)CC[C@@]13[C@H]2CC[C@@H]2[C@]3(C1)CC[C@@H](C2(C)C)O)C)C)C,Failed (1 violation)
+IMPHY011666,Palmitoleic acid,CCCCCC/C=CCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY011759,Neoschaftoside,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O)c1c(O)c([C@H]2OC[C@@H]([C@H]([C@H]2O)O)O)c2c(c1O)c(=O)cc(o2)c1ccc(cc1)O,Failed (3 violations)
+IMPHY011761,Humulene,C/C/1=CCC(C)(C)/C=C/C/C(=C/CC1)/C,Failed (1 violation)
+IMPHY011797,Oleic acid,CCCCCCCC/C=CCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY011974,4-Hydroxycinnamic acid,OC(=O)/C=C/c1ccc(cc1)O,Passed
+IMPHY012025,Glycerophosphoric acid,OCC(COP(=O)(O)O)O,Passed
+IMPHY012723,Linolenic acid,CC/C=CC/C=CC/C=CCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY013730,Rizolipase,Oc1ccc(c(c1)O)/N=N/c1ccccn1.[Na+],Passed
+IMPHY014890,Cyanidin 3-glucoside,OCC1OC(Oc2cc3c(O)cc(cc3[o+]c2c2ccc(c(c2)O)O)O)C(C(C1O)O)O.[Cl-],Failed (1 violation)
+IMPHY014899,Stigmastanol,CC[C@@H](C(C)C)CC[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CC[C@@H]2[C@]1(C)CC[C@@H](C2)O)C,Failed (1 violation)
+IMPHY014988,Limonene,CC1=CCC(CC1)C(=C)C,Passed
+IMPHY014990,Linoleic acid,CCCCC/C=CC/C=CCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY015000,D-Mannose,OC[C@H]1OC(O)[C@H]([C@H]([C@@H]1O)O)O,Passed
+IMPHY015241,"2,6,10-Trimethyltetradecane",CCCCC(CCCC(CCCC(C)C)C)C,Failed (1 violation)
+IMPHY015918,p-Xylene,Cc1ccc(cc1)C,Passed
+IMPHY016159,"1,1,2,3-Tetramethylcyclohexane",CC1CCCC(C1C)(C)C,Passed
+IMPHY016165,"Decahydro-1,2-dimethylnaphthalene",CC1CCC2C(C1C)CCCC2,Passed
+IMPHY016170,"1,2,3,5-Tetramethylcyclohexane",CC1CC(C)C(C(C1)C)C,Passed
+IMPHY016193,"Naphthalene, decahydro-1,5-dimethyl-",CC1CCCC2C1CCCC2C,Passed
+IMPHY016196,"Naphthalene, decahydro-1,6-dimethyl-",CC1CCC2C(C1)CCCC2C,Passed
+IMPHY016302,"Naphthalene, decahydro-2,3-dimethyl-",CC1CC2CCCCC2CC1C,Passed
+IMPHY016339,"2,6-Dimethyldecalin",CC1CCC2C(C1)CCC(C2)C,Passed
+IMPHY016529,"1,2,3,6-Tetramethylbicyclo[2.2.2]octane",CC1C2CCC(C1C)(C(C2)C)C,Passed
+IMPHY016588,Pentylcyclohexane,CCCCCC1CCCCC1,Passed
+IMPHY016589,1-Ethyl-2-methylcyclohexane,CCC1CCCCC1C,Passed
+IMPHY016590,1-Ethyl-4-methylcyclohexane,CCC1CCC(CC1)C,Passed
+IMPHY016591,1-Methyl-2-propylcyclohexane,CCCC1CCCCC1C,Passed
+IMPHY016592,"trans-1,1,3,5-Tetramethylcyclohexane",C[C@@H]1C[C@@H](C)CC(C1)(C)C,Passed
+IMPHY016860,"Tetradecanoic acid, trimethylsilyl ester",CCCCCCCCCCCCCC(=O)O[Si](C)(C)C,Failed (1 violation)
+IMPHY017077,"3,3-Dimethyloctane",CCCCCC(CC)(C)C,Passed
+IMPHY017680,"2,6-Dimethylpiperidine",CC1CCCC(N1)C,Passed
+IMPHY005329,2'-Deoxymugineic acid,O[C@H](C(=O)O)CCN[C@H](C(=O)O)CCN1CC[C@H]1C(=O)O,Passed
+IMPHY005715,Acetovanillone,COc1cc(ccc1O)C(=O)C,Passed
+IMPHY006148,4-Hydroxyacetophenone,CC(=O)c1ccc(cc1)O,Passed
+IMPHY006936,Syringaldehyde,COc1cc(C=O)cc(c1O)OC,Passed
+IMPHY007556,Nicotianamine,N[C@H](C(=O)O)CCN[C@H](C(=O)O)CCN1CC[C@H]1C(=O)O,Passed
+IMPHY009356,4-Hydroxybenzaldehyde,O=Cc1ccc(cc1)O,Passed
+IMPHY011409,Guaiacol,COc1ccccc1O,Passed
+IMPHY011802,Ferulic acid,COc1cc(/C=C/C(=O)O)ccc1O,Passed
+IMPHY000005,Thiamine,OCCc1sc[n+](c1C)Cc1cnc(nc1N)C,Passed
+IMPHY000300,3-Aminobutanoic acid,CC(CC(=O)O)N,Passed
+IMPHY000846,Riboflavin,OC[C@H]([C@H]([C@H](Cn1c2-c(nc3c1cc(C)c(c3)C)c(=O)[nH]c(=O)n2)O)O)O,Passed
+IMPHY001216,(+)-phytocassane A,C=CC1=CC(=O)[C@H]2[C@H]([C@H]1C)CC[C@@H]1[C@]2(C)C[C@H](O)C(=O)C1(C)C,Passed
+IMPHY001224,"Methyl 2,6-dihydroxy-4-quinolinecarboxylate",COC(=O)c1cc(=O)[nH]c2c1cc(O)cc2,Passed
+IMPHY001274,Pelargonidin 3-glucoside,OC[C@H]1O[C@@H](Oc2cc3c(O)cc(cc3[o+]c2c2ccc(cc2)O)O)[C@@H]([C@H]([C@@H]1O)O)O,Failed (1 violation)
+IMPHY001315,Flavanone,O=C1CC(Oc2c1cccc2)c1ccccc1,Passed
+IMPHY001644,Malvidin,COc1cc(cc(c1O)OC)c1[o+]c2cc(O)cc(c2cc1O)O,Passed
+IMPHY002319,24-Methyl-24-methoxycycloartanol,COC(C(C)C)(CC[C@H]([C@H]1CC[C@@]2([C@]1(C)CC[C@@]13[C@H]2CC[C@@H]2[C@]3(C1)CC[C@@H](C2(C)C)O)C)C)C,Failed (1 violation)
+IMPHY002365,"3-Deoxy-d-arabino-hexono-1,4-lactone",OC(=O)C(c1ccccc1)N=Cc1ccccc1,Passed
+IMPHY002588,Flavylium,c1ccc(cc1)c1ccc2c([o+]1)cccc2,Passed
+IMPHY002627,Campestanyl ferulate,COc1cc(/C=C/C(=O)O[C@H]2CC[C@]3([C@H](C2)CC[C@@H]2[C@@H]3CC[C@]3([C@H]2CC[C@@H]3[C@@H](CC[C@H](C(C)C)C)C)C)C)ccc1O,Failed (2 violations)
+IMPHY002667,Pentadecanoic acid,CCCCCCCCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY003016,Lauric acid,CCCCCCCCCCCC(=O)O,Passed
+IMPHY003026,Dehydrocoronamic acid,N[C@]1(C[C@H]1C=C)C(=O)O,Passed
+IMPHY003104,Decanoic acid,CCCCCCCCCC(=O)O,Passed
+IMPHY003359,Gliadins,NC(=O)CCC(C(=O)N1CCCC1C(=O)NC(C(=O)O)CCC(=O)N)NC(=O)C1CCCN1C(=O)C(Cc1ccc(cc1)O)N,Failed (2 violations)
+IMPHY003366,"2-C-methyl-d-erythrono-1,4-lactone",O=C(Oc1ccc2c(c1)O/C(=C/c1ccccc1C)/C2=O)/C=Cc1ccccc1,Failed (1 violation)
+IMPHY003466,5'-O-beta-D-Glucosylpyridoxine,OC[C@H]1O[C@@H](OCc2cnc(c(c2CO)O)C)[C@@H]([C@H]([C@@H]1O)O)O,Failed (1 violation)
+IMPHY003906,trans-Zeatin,OC/C(=C/CNc1ncnc2c1[nH]cn2)/C,Passed
+IMPHY004025,Jasmonic acid,CC/C=CC[C@@H]1[C@H](CCC1=O)CC(=O)O,Passed
+IMPHY004187,L-(+)-Arabinose,OC[C@@H]([C@@H]([C@H](C=O)O)O)O,Passed
+IMPHY004308,Meloside L,OC[C@H]1O[C@H]([C@@H]([C@H]([C@@H]1O)O)O[C@@H]1O[C@H](CO)[C@H]([C@@H]([C@H]1O)O)O)c1c(O)cc2c(c1O)c(=O)cc(o2)c1ccc(c(c1)O)O,Failed (3 violations)
+IMPHY004388,Kaempferol,Oc1ccc(cc1)c1oc2cc(O)cc(c2c(=O)c1O)O,Passed
+IMPHY004457,"[(10R,13R,17R)-17-(5-ethyl-6-methylheptan-2-yl)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl] (Z)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",CCC(C(C)C)CCC([C@H]1CCC2[C@]1(C)CCC1C2CC=C2[C@]1(C)CCC(C2)OC(=O)/C=Cc1ccc(c(c1)OC)O)C,Failed (2 violations)
+IMPHY004506,Ergosterol peroxide,O[C@H]1CC[C@]2([C@@]3(C1)OO[C@@]1([C@@H]2CC[C@]2([C@H]1CC[C@@H]2[C@@H](/C=C/[C@@H](C(C)C)C)C)C)C=C3)C,Failed (1 violation)
+IMPHY004619,Quercetin,Oc1cc(O)c2c(c1)oc(c(c2=O)O)c1ccc(c(c1)O)O,Passed
+IMPHY004624,2-Acetyl-1-pyrroline,CC(=O)C1=NCCC1,Passed
+IMPHY004634,Myristoleic acid,CCCC/C=CCCCCCCCC(=O)O,Passed
+IMPHY004703,D-Erythronolactone,O[C@@H]1[C@H](O)COC1=O,Passed
+IMPHY004950,"[(3S,9S,13R)-9-ethyl-4,4,13,14-tetramethyl-17-(6-methylhept-5-en-2-yl)-2,3,5,6,7,8,10,11,12,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-yl] (E)-3-(4-hydroxy-3-methoxyphenyl)prop-2-enoate",COc1cc(/C=C/C(=O)O[C@H]2CCC3C(C2(C)C)CCC2[C@@]3(CC)CC[C@]3(C2(C)CCC3C(CCC=C(C)C)C)C)ccc1O,Failed (2 violations)
+IMPHY005283,1-Tetratriacontanol,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCO,Failed (1 violation)
+IMPHY005307,"(2|A,6|A,9|A)-2-hydroxy-6,18-epoxypimara-7,15-dien-18-one",C=C[C@]1(C)CC[C@@H]2C(=C[C@@H]3[C@@H]4[C@]2(C)C[C@H](O)C[C@@]4(C(=O)O3)C)C1,Passed
+IMPHY005386,Myrtillin,OC[C@H]1O[C@@H](Oc2cc3c(O)cc(cc3[o+]c2c2cc(O)c(c(c2)O)O)O)[C@@H]([C@H]([C@@H]1O)O)O.[Cl-],Failed (3 violations)
+IMPHY005439,"(4S,5R)-4-hydroxy-5-(hydroxymethyl)dihydrofuran-2(3H)-one",OC[C@H]1OC(=O)C[C@@H]1O,Passed
+IMPHY005544,Biotin,OC(=O)CCCC[C@@H]1SC[C@H]2[C@@H]1NC(=O)N2,Passed
+IMPHY006035,Phenyl isothiocyanate,S=C=Nc1ccccc1,Passed
+IMPHY006257,Gamma-oryzanol,COc1cc(/C=C/C(=O)O[C@H]2CC[C@]34C(C2(C)C)CCC2[C@@]4(C3)CC[C@]3([C@@]2(C)CC[C@@H]3C(CCC=C(C)C)C)C)ccc1O,Failed (2 violations)
+IMPHY006290,"6-Chromanol, 2,8-dimethyl-2-(4,8,12-trimethyltridecyl)-",CC(CCCC1(C)CCc2c(O1)c(C)cc(c2)O)CCCC(CCCC(C)C)C,Failed (1 violation)
+IMPHY006331,Choline chloride,OCC[N+](C)(C)C.[Cl-],Passed
+IMPHY006359,"L-Rhamnono-1,4-lactone",C[C@@H]([C@@H]1OC(=O)[C@@H]([C@@H]1O)O)O,Passed
+IMPHY006424,Pheophytin A,COC(=O)[C@H]1C(=O)C2=C(C)/C/3=C/c4[nH]c(c(c4CC)C)/C=c/4[nH]/c(=CC5=N/C(=C/1C2=N3)/[C@@H](CCC(=O)OC/C=C(/CCC[C@@H](CCC[C@@H](CCCC(C)C)C)C)C)[C@@H]5C)/c(C)c4C=C,Failed (2 violations)
+IMPHY006456,"magnesium;methyl (3R,21S,22S)-16-ethenyl-11-ethyl-12,17,21,26-tetramethyl-4-oxo-22-[3-oxo-3-[(E,7S,11R)-3,7,11,15-tetramethylhexadec-2-enoxy]propyl]-23,25-diazonia-7,24-diazanidahexacyclo[18.2.1.15,8.110,13.115,18.02,6]hexacosa-1(23),2(6),5(26),8,10(25),11,13,15,17,19-decaene-3-carboxylate",COC(=O)[C@@H]1C2=c3c(C1=O)c(/c(=C/C1=[NH+]/C(=Cc4[n-]c(/C=C/5[NH+]=C2[C@@H](CCC(=O)OC/C=C(/CCC[C@H](CCC[C@@H](CCCC(C)C)C)C)C)[C@@H]5C)c(C)c4C=C)/C(=C1CC)C)/[n-]3)C.[Mg+2],Failed (2 violations)
+IMPHY006486,Squalene,C/C(=CCC/C=C(/CC/C=C(/CCC=C(C)C)C)C)/CC/C=C(/CCC=C(C)C)C,Failed (1 violation)
+IMPHY006942,Methylglyoxal,O=CC(=O)C,Passed
+IMPHY007084,Vanillic acid,COc1cc(ccc1O)C(=O)O,Passed
+IMPHY007138,Dehydrovomifoliol,CC(=O)/C=C/[C@@]1(O)C(=CC(=O)CC1(C)C)C,Passed
+IMPHY007357,Nicotinic acid,OC(=O)c1cccnc1,Passed
+IMPHY008165,Ovalitenone,COc1c(ccc2c1cco2)C(=O)CC(=O)c1ccc2c(c1)OCO2,Passed
+IMPHY008910,Hentriacontane,CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC,Failed (1 violation)
+IMPHY008945,Cyanidin,Oc1cc(O)c2c(c1)[o+]c(c(c2)O)c1ccc(c(c1)O)O,Passed
+IMPHY009513,Tridecanoic acid,CCCCCCCCCCCCC(=O)O,Passed
+IMPHY010083,4-Hydroxybenzoic acid,Oc1ccc(cc1)C(=O)O,Passed
+IMPHY010556,Scopoline,CN1C2CC3CC1C(C2O)O3,Passed
+IMPHY011207,L-Glc(?1-4)Glc(a1-4)Glc,OC[C@H]1O[C@H](O[C@@H]2[C@@H](CO)OC([C@@H]([C@H]2O)O)O)[C@@H]([C@H]([C@@H]1OC1O[C@@H](CO)[C@@H]([C@H]([C@@H]1O)O)O)O)O,Failed (3 violations)
+IMPHY011286,6-O-alpha-D-glucopyranosyl-beta-D-glucopyranose,OC[C@H]1O[C@H](OC[C@H]2O[C@@H](O)[C@@H]([C@H]([C@@H]2O)O)O)[C@@H]([C@H]([C@@H]1O)O)O,Failed (2 violations)
+IMPHY011513,Isosinensetin,COc1cc(ccc1OC)c1cc(=O)c2c(o1)c(OC)c(cc2OC)OC,Passed
+IMPHY011608,Gingerol,CCCCC[C@@H](CC(=O)CCc1ccc(c(c1)OC)O)O,Passed
+IMPHY011613,Fucosterol,C/C=C(C(C)C)/CC[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CC=C2[C@]1(C)CC[C@@H](C2)O)C,Failed (1 violation)
+IMPHY012029,Sterol,OC1CCC2C(C1)CCC1C2CCC2C1CCC2,Passed
+IMPHY012050,D-Galactose,OC[C@H]1OC(O)[C@@H]([C@H]([C@H]1O)O)O,Passed
+IMPHY012053,Sucrose,OC[C@H]1O[C@@]([C@H]([C@@H]1O)O)(CO)O[C@H]1O[C@H](CO)[C@H]([C@@H]([C@H]1O)O)O,Failed (2 violations)
+IMPHY012160,alpha-Terpineol,CC1=CCC(CC1)C(O)(C)C,Passed
+IMPHY012320,Raffinose,OC[C@H]1O[C@@]([C@H]([C@@H]1O)O)(CO)O[C@H]1O[C@H](CO[C@H]2O[C@H](CO)[C@@H]([C@@H]([C@H]2O)O)O)[C@H]([C@@H]([C@H]1O)O)O,Failed (3 violations)
+IMPHY012402,Campesterol,O[C@H]1CC[C@]2(C(=CC[C@@H]3[C@@H]2CC[C@]2([C@H]3CC[C@@H]2[C@@H](CC[C@H](C(C)C)C)C)C)C1)C,Failed (1 violation)
+IMPHY012464,Clionasterol,CC[C@H](C(C)C)CC[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CC=C2[C@]1(C)CC[C@@H](C2)O)C,Failed (1 violation)
+IMPHY012712,Phytol,OC/C=C(/CCC[C@@H](CCC[C@@H](CCCC(C)C)C)C)C,Failed (1 violation)
+IMPHY012761,Gadoleic acid,CCCCCCCCCC/C=CCCCCCCCC(=O)O,Failed (1 violation)
+IMPHY013247,Stigmasteryl ferulate,CC[C@@H](C(C)C)/C=C/[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CC=C2[C@]1(C)CC[C@@H](C2)OC(=O)/C=C/c1ccc(c(c1)OC)O)C,Failed (2 violations)
+IMPHY013350,Oryzanol,COc1cc(/C=C/C(=O)O[C@H]2CC[C@]34[C@H](C2(C)C)CC[C@@]2([C@@]4(C3)CC[C@]3(C2CC[C@@H]3[C@@H](CCC(=C)C(C)C)C)C)C)ccc1O,Failed (2 violations)
+IMPHY014836,beta-Sitosterol,CC[C@@H](C(C)C)CC[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CC=C2[C@]1(C)CC[C@@H](C2)O)C,Failed (1 violation)
+IMPHY014842,Stigmasterol,CC[C@@H](C(C)C)/C=C/[C@H]([C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CC=C2[C@]1(C)CC[C@@H](C2)O)C,Failed (1 violation)
+IMPHY014893,D-Glucose,OC[C@H]1OC(O)[C@@H]([C@H]([C@@H]1O)O)O,Passed
+IMPHY014916,D-Fructose,OCC1(O)OC[C@H]([C@H]([C@@H]1O)O)O,Passed
+IMPHY015116,D-Xylose,O[C@@H]1COC([C@@H]([C@H]1O)O)O,Passed
