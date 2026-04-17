@@ -1,6 +1,9 @@
 # IMPPATez
 IMPPATez is a Gradio-based app for searching IMPPAT phytochemicals by plant, evaluating Lipinski Rule of Five (RO5), and downloading available 3D SDF files as a ZIP.
 
+🔎 IMPHY ID Extractor | 📦 Automated 3D SDF Downloader | ☁️ Cloud Ready
+🧬 Natural Product Informatics Tool | ⚡ IMPPAT Database Automation
+
 ## Features
 - Search IMPPAT phytochemicals for a plant name
 - Extract `IMPHY_ID`, phytochemical name, and SMILES
