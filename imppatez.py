@@ -21,6 +21,9 @@ import pandas as pd
 import urllib.parse
 import re
 import os
+import glob
+import shutil
+import time
 import zipfile
 from datetime import datetime
 
@@ -283,15 +286,20 @@ def run(plant):
 def download_sdf(imphy_id, folder):
     imphy_id = str(imphy_id).strip()
     url = f"{BASE}/images/3D/SDF/{imphy_id}_3D.sdf"
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        try:
+            r = requests.get(url, timeout=25, headers=HEADERS)
+            if r.status_code == 200 and len(r.text.strip()) > 50:
+                path = os.path.join(folder, f"{imphy_id}.sdf")
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(r.text)
+                return path
+        except Exception:
+            pass
 
-    try:
-        r = requests.get(url, timeout=25, headers=HEADERS)
-        if r.status_code == 200 and len(r.text.strip()) > 50:
-            path = os.path.join(folder, f"{imphy_id}.sdf")
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(r.text)
-            return path
-    except Exception:
+        if attempt < max_attempts - 1:
+            time.sleep(1 + attempt)
         pass
 
     return None
@@ -299,6 +307,32 @@ def download_sdf(imphy_id, folder):
 
 def make_imppat_link(imphy_id):
     return f"{BASE}/phytochemical-detailedpage/{imphy_id}"
+
+
+def find_cached_sdf(imphy_id, output_dir):
+    pattern = os.path.join(output_dir, "sdf_files_*", f"{imphy_id}.sdf")
+    candidates = glob.glob(pattern)
+    if not candidates:
+        return None
+
+    valid = [p for p in candidates if os.path.isfile(p) and os.path.getsize(p) > 50]
+    if not valid:
+        return None
+
+    return max(valid, key=os.path.getmtime)
+
+
+def use_cached_sdf(imphy_id, folder, output_dir):
+    cached = find_cached_sdf(imphy_id, output_dir)
+    if not cached:
+        return None
+
+    dest = os.path.join(folder, f"{imphy_id}.sdf")
+    try:
+        shutil.copy2(cached, dest)
+        return dest
+    except Exception:
+        return None
 
 
 def run_sdf_from_previous(csv_file, sdf_mode):
@@ -335,7 +369,9 @@ def run_sdf_from_previous(csv_file, sdf_mode):
 
     for imphy in ids:
         if re.fullmatch(r"IMPHY\d+", imphy):
-            path = download_sdf(imphy, folder)
+            path = use_cached_sdf(imphy, folder, out_dir)
+            if not path:
+                path = download_sdf(imphy, folder)
             if path:
                 saved.append(path)
             else:

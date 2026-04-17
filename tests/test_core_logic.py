@@ -1,7 +1,7 @@
 import os
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, Mock
 
 import pandas as pd
 
@@ -101,6 +101,50 @@ class TestCoreLogic(unittest.TestCase):
             self.assertIn("Missing / not available:** 1", msg)
             self.assertTrue(zip_file and os.path.exists(zip_file))
             self.assertTrue(missing_file and os.path.exists(missing_file))
+
+    def test_download_sdf_retries_and_succeeds(self):
+        with tempfile.TemporaryDirectory() as td:
+            fail_once = Exception("temporary network failure")
+            success_response = Mock()
+            success_response.status_code = 200
+            success_response.text = "X" * 120
+
+            with patch("imppatez.requests.get", side_effect=[fail_once, success_response]) as mock_get, patch(
+                "imppatez.time.sleep"
+            ) as mock_sleep:
+                out = imppatez.download_sdf("IMPHY9999", td)
+
+            self.assertIsNotNone(out)
+            self.assertTrue(out and os.path.exists(out))
+            self.assertEqual(mock_get.call_count, 2)
+            mock_sleep.assert_called_once_with(1)
+
+    def test_run_sdf_uses_cached_file_before_download(self):
+        with tempfile.TemporaryDirectory() as td:
+            csv_path = os.path.join(td, "input.csv")
+            pd.DataFrame(
+                {
+                    "IMPHY_ID": ["IMPHY0001"],
+                    "RO5_Status": ["Passed"],
+                }
+            ).to_csv(csv_path, index=False)
+
+            cached_folder = os.path.join(td, "sdf_files_20260417_000000")
+            os.makedirs(cached_folder, exist_ok=True)
+            cached_file = os.path.join(cached_folder, "IMPHY0001.sdf")
+            with open(cached_file, "w", encoding="utf-8") as f:
+                f.write("Y" * 120)
+
+            with patch("imppatez.OUTPUT_DIR", td), patch("imppatez.timestamp_tag", return_value="20260417_003300"), patch(
+                "imppatez.download_sdf"
+            ) as mock_download:
+                msg, zip_file, missing_file = imppatez.run_sdf_from_previous(csv_path, "Lipinski Passed Only")
+
+            self.assertIn("Downloaded SDF files:** 1", msg)
+            self.assertIn("Missing / not available:** 0", msg)
+            self.assertTrue(zip_file and os.path.exists(zip_file))
+            self.assertIsNone(missing_file)
+            mock_download.assert_not_called()
 
 
 if __name__ == "__main__":
