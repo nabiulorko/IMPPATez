@@ -46,6 +46,5 @@ Generated artifacts are saved under:
 - `outputs/` (CSV exports, SDF folders, ZIP files, missing ID reports)
 
 
-IMPPATez · Python · Gradio · Requests · Pandas · RDKit
-Automated phytochemical extraction, RO5 check & 3D molecular structure retrieval
-Nabiul Orko | Planteran 🍀
+
+**Nabiul Orko | Planteran 🍀**
