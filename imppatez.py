@@ -211,9 +211,9 @@ def ro5_from_smiles(smiles):
         if hba > 10:
             violations += 1
 
-        if violations == 0:
-            return "Passed"
-        suffix = "violation" if violations == 1 else "violations"
+        if violations <= 1:
+         return "Passed"
+        suffix = "violations"
         return f"Failed ({violations} {suffix})"
     except Exception:
         return "RDKit Error"
@@ -413,17 +413,21 @@ def run_sdf_from_previous(csv_file, sdf_mode):
 with gr.Blocks(title="IMPPATez") as demo:
     gr.HTML("""
     <div style="width:100%; max-width:980px; margin: 10px auto 20px auto; text-align:center;">
-        <div style="font-size:2.4rem; font-weight:700; font-family:IBM Plex Mono;">
-            🌿 IMPPATez
-        </div>
 
-        <div style="margin-top:6px; font-weight:600;">
-            🔎 IMPHY ID Extractor | 📦 Automated 3D SDF Downloader | ☁️ Cloud Ready
-        </div>
+    <!-- Centered Logo -->
+    <div style="display:flex; justify-content:center; align-items:center; margin-bottom:12px;">
+        <img src="https://i.ibb.co.com/Q38pzfNc/1776435449657.png"
+             style="height:130px; width:auto;" />
+    </div>
 
-        <div style="margin-top:6px; color:#666; font-size:0.9rem;">
-            🧬 Natural Product Informatics Tool | ⚡ IMPPAT Database Automation
-        </div>
+    <div style="margin-top:6px; font-weight:600;">
+        🔎 IMPHY ID Extractor | 📦 Automated 3D SDF Downloader | ☁️ Cloud Ready
+    </div>
+
+    <div style="margin-top:6px; color:#666; font-size:0.9rem;">
+        🧬 Natural Product Informatics Tool | ⚡ IMPPAT Database Automation
+    </div>
+
     </div>
     """)
 
